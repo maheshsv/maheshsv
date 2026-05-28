@@ -57,11 +57,11 @@
 
 ### ✨ [everything-claude-code](https://github.com/maheshsv/everything-claude-code)
 
-**My personal fork of [ECC by Affaan Mustafa](https://github.com/affaan-m/ECC)** — the harness-native operator system for agentic work. Upstream ships ~20 language-specific rule packs (Python, TypeScript, Go, Rust, Java, Kotlin, Swift, C++, C#, Ruby, PHP, Dart, F#, Perl, ArkTS, Angular, web…), 50+ agents, slash commands, hooks, and platform configs for Claude Code.
+**A harness-native operator system for agentic work with Claude Code.** Ships ~20 language-specific rule packs (Python, TypeScript, Go, Rust, Java, Kotlin, Swift, C++, C#, Ruby, PHP, Dart, F#, Perl, ArkTS, Angular, web…), 50+ agents, slash commands, hooks, and platform configs.
 
-**This fork** keeps the upstream README and `NOTICE.md` attribution intact, with light customization for my own Python / web / agentic workflows. License: MIT (unchanged).
+**My customizations:** tuned for Python / web / agentic SRE workflows, with hooks and rule overrides for my own day-to-day. Used daily across my open-source contributions (OpenSRE and others).
 
-<sub>Stack: Shell · TypeScript · Python · Markdown · npm</sub>
+<sub>Stack: Shell · TypeScript · Python · Markdown · npm — based on [ECC](https://github.com/affaan-m/ECC) by [@affaan-m](https://github.com/affaan-m), MIT</sub>
 
 </td>
 </tr>
