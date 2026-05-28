@@ -2,7 +2,7 @@
 <img alt="Mahesh SV — banner" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Mahesh%20SV&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 
 <p align="center">
-<img alt="Typing animation: roles and stack" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Open+Source+Contributor;Software+Engineer+%40+Caterpillar;AI+SRE+Enthusiast;Python+%C2%B7+Terraform+%C2%B7+AWS;Always+Shipping%2C+Always+Learning" />
+<img alt="Typing animation: roles and stack" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Open+Source+Contributor;Software+Engineer+%40+Caterpillar;AI+SRE+Enthusiast;Python+%C2%B7+Terraform+%C2%B7+AWS;Always+Shipping%2C+Always+Learning" />
 </p>
 
 ---
@@ -78,12 +78,12 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-<img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=maheshsv&show_icons=true&theme=tokyonight&hide_border=true"/>
-<img alt="GitHub streak" src="https://github-readme-streak-stats.herokuapp.com/?user=maheshsv&theme=tokyonight&hide_border=true"/>
+<img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=maheshsv&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
+<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=maheshsv&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
-<img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maheshsv&layout=compact&theme=tokyonight&hide_border=true"/>
+<img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maheshsv&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400"/>
 </p>
 
 ---
@@ -102,33 +102,7 @@
 <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/maheshsv/maheshsv/output/github-contribution-grid-snake-dark.svg"/>
 </p>
 
-> The snake needs a GitHub Action to regenerate weekly. Add the workflow below to make it real (otherwise the image will 404 until the first run completes):
->
-> File: `.github/workflows/snake.yml` in `maheshsv/maheshsv`
-
-```yaml
-name: Generate Snake
-on:
-  schedule: [{ cron: "0 0 * * *" }]
-  workflow_dispatch:
-permissions:
-  contents: write
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: maheshsv
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+> The snake needs a GitHub Action to regenerate daily. Add `.github/workflows/snake.yml` in `maheshsv/maheshsv` (see the file in this repo). The image will 404 until the first workflow run completes — trigger it manually via the **Actions → Generate Snake → Run workflow** button after committing.
 
 ---
 
