@@ -65,6 +65,21 @@
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧬 [VectorDB Visualizer](https://github.com/maheshsv/vectordb-visualizer)
+
+**An interactive visualizer for how a vector database actually works** — text → tokens → embedding → similarity search → ranked results, with a live 2D projection of the vector space. Uses **real on-device embeddings** (Transformers.js, no API keys), an HNSW-style ANN graph with an animated greedy search, and a WordPiece-vs-BPE tokenizer explorer.
+
+**🔗 Live demo:** [preeminent-faun-2e7acc.netlify.app](https://preeminent-faun-2e7acc.netlify.app/)
+
+<sub>Stack: React 19 · TypeScript · Vite · @huggingface/transformers · gpt-tokenizer</sub>
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 ---
